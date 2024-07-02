@@ -7,8 +7,8 @@ class CfgEditorCategories
 };
 class CfgEditorSubcategories
 {
-	class HUMANAID_CIVILIANS
+	class HUMANAID_CIVILIANS_MIDDLE_EASTERN
 	{
-		displayName = CSTRING(Category_Civilians);
+		displayName = CSTRING(Category_Civilians_Middle_Eastern);
 	};
 };

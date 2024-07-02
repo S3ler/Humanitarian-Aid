@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Project name="HUMANAID">
+	<Package name="main">
+		<Key ID="STR_humanaid_main_Category_Main">
+			<Original>Humanitarian Aid</Original>
+			<English>Humanitarian Aid</English>
+			<German>Humanitäre Hilfe</German>
+		</Key>
+		<Key ID="STR_humanaid_main_Category_Civilians_Middle_Eastern">
+			<Original>Civilians (Middle Eastern)</Original>
+			<English>Civilians (Middle Eastern)</English>
+			<German>Zivilisten (Mittlerer Osten)</German>
+		</Key>
+		<Container name="Humanaid Civilians Middle Eastern">
+			<Key ID="STR_humanaid_main_Civilian_DisplayName">
+				<Original>Civilian</Original>
+				<English>Civilian</English>
+				<German>Zivilist</German>
+			</Key>
+			<Key ID="STR_humanaid_main_RandomCivilian_DisplayName">
+				<Original>Random Civilian</Original>
+				<English>Random Civilian</English>
+				<German>Zufälliger Zivilist</German>
+			</Key>
+			<Key ID="STR_humanaid_main_Tak_Mission_ID001_DisplayName">
+				<Original>Delivery Mission 001</Original>
+				<English>Delivery Mission 001</English>
+				<German>Lieferung Auftrag 001</German>
+			</Key>
+		</Container>
+	</Package>
+</Project>

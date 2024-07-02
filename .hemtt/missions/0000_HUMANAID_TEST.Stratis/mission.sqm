@@ -12,28 +12,29 @@ class EditorData
 	};
 	class ItemIDProvider
 	{
-		nextID=3;
+		nextID=8;
 	};
 	class Camera
 	{
-		pos[]={1867.5061,45.327801,5692.3789};
-		dir[]={0.068159088,-0.73637897,0.67313832};
-		up[]={0.07418301,0.67656809,0.73263448};
-		aside[]={0.99491912,3.061723e-007,-0.10074059};
+		pos[]={1883.2502,14.602303,5735.9009};
+		dir[]={-0.16261706,-0.59634316,-0.78613842};
+		up[]={-0.12080305,0.80271226,-0.58400172};
+		aside[]={-0.97930932,-1.5067235e-007,0.20257547};
 	};
 };
 binarizationWanted=0;
-sourceName="0000_HUMANAID_TEST";
+sourceName="0000_humanaid_test";
 addons[]=
 {
 	"A3_Characters_F",
-	"A3_Modules_F_Curator_Curator"
+	"A3_Modules_F_Curator_Curator",
+	"humanaid_main"
 };
 class AddonsMetaData
 {
 	class List
 	{
-		items=2;
+		items=3;
 		class Item0
 		{
 			className="A3_Characters_F";
@@ -48,7 +49,18 @@ class AddonsMetaData
 			author="Bohemia Interactive";
 			url="https://www.arma3.com";
 		};
+		class Item2
+		{
+			className="humanaid_main";
+			name="Main";
+			author="Bele Bier";
+			url="https://community.bistudio.com/wiki";
+		};
 	};
+};
+dlcs[]=
+{
+	"LOP_LeightsOPFOR"
 };
 randomSeed=8506386;
 class ScenarioData
@@ -79,7 +91,7 @@ class Mission
 	};
 	class Entities
 	{
-		items=2;
+		items=4;
 		class Item0
 		{
 			dataType="Group";
@@ -102,14 +114,12 @@ class Mission
 					};
 					id=1;
 					type="B_officer_F";
-					atlOffset=-4.7683716e-007;
 				};
 			};
 			class Attributes
 			{
 			};
 			id=0;
-			atlOffset=-4.7683716e-007;
 		};
 		class Item1
 		{
@@ -176,6 +186,68 @@ class Mission
 				};
 				nAttributes=4;
 			};
+		};
+		class Item2
+		{
+			dataType="Group";
+			side="Civilian";
+			class Entities
+			{
+				items=1;
+				class Item0
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={1880.8583,5.530674,5727.4678};
+						angles[]={0,0.51074296,-0};
+					};
+					side="Civilian";
+					flags=7;
+					class Attributes
+					{
+					};
+					id=5;
+					type="humanaid_main_Tak_Mission_ID001";
+					atlOffset=-9.5367432e-007;
+				};
+			};
+			class Attributes
+			{
+			};
+			id=4;
+			atlOffset=-9.5367432e-007;
+		};
+		class Item3
+		{
+			dataType="Group";
+			side="Civilian";
+			class Entities
+			{
+				items=1;
+				class Item0
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={1879.1582,5.5271983,5727.6226};
+						angles[]={0,0.72297537,-0};
+					};
+					side="Civilian";
+					flags=7;
+					class Attributes
+					{
+					};
+					id=7;
+					type="humanaid_main_Tak_Mission_ID001";
+					atlOffset=4.7683716e-007;
+				};
+			};
+			class Attributes
+			{
+			};
+			id=6;
+			atlOffset=4.7683716e-007;
 		};
 	};
 };
