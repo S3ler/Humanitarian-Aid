@@ -1,0 +1,30 @@
+name = "Humanitarian Aid"
+author = "Bele Bier"
+prefix = "humanaid"
+mainprefix = "z"
+
+[hemtt.dev]
+exclude = ["Humanitarion-Aid-Speech-Creation"]
+
+[version]
+major = 0
+minor = 1
+patch = 0
+build = 0
+git_hash = 0
+
+
+[hemtt.launch.default]
+workshop = [
+    "450814997", # CBA_A3
+    "463939057", # ace
+    # "583496184", # CUP Terrains - Core
+    "623475643", # 3den Enhanced
+    # "843425103", # RHSAFRF
+    # "843577117", # RHSUSAF
+    # "843593391", # RHSGREF
+    # "735566597", # Project OPFOR
+    "1779063631", # Zeus Enhanced
+    "2018593688", # Zeus Enhanced - ACE3 Compatibility
+]
+mission="0000_HUMANAID_TEST.Stratis"
