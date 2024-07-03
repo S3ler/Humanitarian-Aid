@@ -6,7 +6,7 @@ class CfgPatches {
 		authors[] = AUTHORS;
 		name = COMPONENT_NAME;
 		units[] = {
-			"HA_Civilian_Random"
+			QGVAR(Dialog_Civilian)
 		};
 		weapons[] = {};
 		requiredVersion = REQUIRED_VERSION;
@@ -24,10 +24,9 @@ class CfgPatches {
 		VERSION_CONFIG;
 	};
 };
-//#include "CfgEventHandlers.hpp"
+#include "CfgEventHandlers.hpp"
 //#include "CfgEden.hpp"
 #include "CfgEditorCategories.hpp"
-#include "CfgVehicleClasses.hpp"
 #include "CfgVehicles.hpp"
 //#include "CfgMagazines.hpp"
 //#include "CfgAmmo.hpp"

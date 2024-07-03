@@ -1,3 +1,9 @@
 class CfgVehicles {
-	#include "Civilians_Middle_Eastern.hpp"
+	class C_man_1;
+	class GVAR(Dialog_Civilian) : C_man_1 {
+	displayName = "Dialog Civilian"; 
+	author = AUTHOR;
+	editorCategory = "HUMANAID_MAINCATEGORY"; 
+	editorSubcategory = "HUMANAID_CIVILIANS";
+	};
 };

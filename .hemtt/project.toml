@@ -14,11 +14,11 @@ workshop = [
     "463939057", # ace
     # "583496184", # CUP Terrains - Core
     "623475643", # 3den Enhanced
-    "843425103", # RHSAFRF
-    "843577117", # RHSUSAF
-    "843593391", # RHSGREF
-    "735566597", # Project OPFOR
+    # "843425103", # RHSAFRF
+    # "843577117", # RHSUSAF
+    # "843593391", # RHSGREF
+    # "735566597", # Project OPFOR
     "1779063631", # Zeus Enhanced
     "2018593688", # Zeus Enhanced - ACE3 Compatibility
 ]
-mission="0000_HUMANAID_TEST.Stratis"
+#mission="0000_HUMANAID_TEST.Stratis"

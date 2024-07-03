@@ -11,4 +11,8 @@ class CfgEditorSubcategories
 	{
 		displayName = CSTRING(Category_Civilians_Middle_Eastern);
 	};
+	class HUMANAID_CIVILIANS
+	{
+		displayName = "Civilians";
+	};
 };
