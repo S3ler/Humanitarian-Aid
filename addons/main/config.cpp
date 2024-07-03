@@ -12,22 +12,12 @@ class CfgPatches {
 		requiredVersion = REQUIRED_VERSION;
 		requiredAddons[] = {
             "cba_main",
-            "ace_common",
-            "A3_Characters_F",
-			"A3_Structures_F_Items_Vessels",
-			"A3_Props_F_Orange_Humanitarian_Supplies",
-			"A3_Props_F_Orange_Civilian_Constructions",
-			"A3_Structures_F_EPC_Civ_Garbage",
-			"A3_Weapons_F_Explosives"
+            "ace_common"
         };
 		url = "https://community.bistudio.com/wiki";
 		VERSION_CONFIG;
 	};
 };
-#include "CfgEventHandlers.hpp"
-//#include "CfgEden.hpp"
+
 #include "CfgEditorCategories.hpp"
-#include "CfgVehicles.hpp"
-//#include "CfgMagazines.hpp"
-//#include "CfgAmmo.hpp"
-//#include "CfgSounds.hpp"
+
