@@ -1,0 +1,3 @@
+
+PREP(playerInitCivilianDialog);
+PREP(serverInitDialogState);
