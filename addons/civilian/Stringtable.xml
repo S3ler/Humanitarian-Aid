@@ -2,6 +2,11 @@
 <Project name="HUMANAID">
     <Package name="civilian">
 		<Container name="Civilian Display Names">
+			<Key ID="STR_humanaid_civilian_CivilianC1DisplayName">
+				<Original>Dialog Boy - C1/M1</Original>
+				<English>Dialog Boy - C1/M1</English>
+				<German>Gesprächsjunge - C1/M1</German>
+			</Key>
 			<Key ID="STR_humanaid_civilian_CivilianC2DisplayName">
 				<Original>Dialog Boy - C2/M2</Original>
 				<English>Dialog Boy - C2/M2</English>

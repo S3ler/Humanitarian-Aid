@@ -6,6 +6,7 @@ class CfgPatches {
         authors[] = AUTHORS;
         name = COMPONENT_NAME;
         units[] = {
+            QGVAR(CivilianC1),
             QGVAR(CivilianC2)
         };
         weapons[] = {};

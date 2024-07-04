@@ -17,6 +17,11 @@ class Extended_PostInit_EventHandlers {
 };
 
 class Extended_InitPost_EventHandlers {
+    class GVAR(CivilianC1) {
+        class ADDON {
+            serverInit = QUOTE(_this call FUNC(serverInitCivilianC1MissionM1));
+        };
+    };
     class GVAR(CivilianC2) {
         class ADDON {
             serverInit = QUOTE(_this call FUNC(serverInitCivilianC2MissionM2));
