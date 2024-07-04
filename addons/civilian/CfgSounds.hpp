@@ -19,6 +19,21 @@ class CfgSounds {
         sound[] = {QPATHTOF(sounds\cIdC1_mIdM1_dId3_fail.wav), 10, 1, 1 };
         titles[] = {0, "Lass mich schauen... nein, es fehlt noch etwas. Bitte beeilen Sie sich!"};
     };
+    class GVAR(cIdC1_mIdM1_dId3_1_success) {
+        name = QGVAR(cIdC1_mIdM1_dId3_1_success);
+        sound[] = {QPATHTOF(sounds\cIdC1_mIdM1_dId3_1_success.wav), 10, 1, 1 };
+        titles[] = {0, "Bringen Sie mir eine Box medizinische Vorräte und 2 Kannister Treibstoff."};
+    };
+    class GVAR(cIdC1_mIdM1_dId3_2_success) {
+        name = QGVAR(cIdC1_mIdM1_dId3_2_success);
+        sound[] = {QPATHTOF(sounds\cIdC1_mIdM1_dId3_2_success.wav), 10, 1, 1 };
+        titles[] = {0, "Bringen Sie die Lieferung direkt zu mir."};
+    };
+    class GVAR(cIdC1_mIdM1_dId3_3_success) {
+        name = QGVAR(cIdC1_mIdM1_dId3_3_success);
+        sound[] = {QPATHTOF(sounds\cIdC1_mIdM1_dId3_3_success.wav), 10, 1, 1 };
+        titles[] = {0, "Die medizinischen Vorräte sind dringend für die Kranken hier im Dorf, und der Treibstoff wird für unsere Generatoren gebraucht. Ihre Hilfe wird hier wirklich geschätzt!"};
+    };
     class GVAR(cIdC1_mIdM1_dId4_success) {
         name = QGVAR(cIdC1_mIdM1_dId4_success);
         sound[] = {QPATHTOF(sounds\cIdC1_mIdM1_dId4_success.wav), 10, 1, 1 };

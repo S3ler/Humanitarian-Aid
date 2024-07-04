@@ -103,6 +103,75 @@ private _action3 = [
     "", _dialog3, _condition3,
     {},[_civilianObj, _items_delivery, _delivery_radius], "", 3,[false,false,false,false,false],{}] call ace_interact_menu_fnc_createAction;
 [ _civilianObj, 0, [ "ACE_MainActions" ], _action3 ] call ace_interact_menu_fnc_addActionToObject;
+// Dialog 3_1: 
+private _dialog3_1 = {
+    _target setVariable [QGVAR(Talking), true];
+    // Bringen Sie mir eine Box medizinische Vorräte und 2 Kannister Treibstoff.
+    _target say QGVAR(cIdC1_mIdM1_dId3_1_success);
+    [_target] spawn {
+        params ["_target"];
+        sleep 1;
+        _target setVariable [QGVAR(Talking), false];
+    };
+};
+// Condition 3_1: 
+private _condition3_1 = {
+    (_target getVariable [ QGVAR(civilianC1MissionM1DialogState), 0 ] == 3)
+    && !(_target getVariable [ QGVAR(Talking), true])
+};
+// Ace Action 3_1: 
+private _action3_1 = [
+    QGVAR(civilianC1MissionM1AceAction),
+    "Was war die Aufgabe nochmal?",
+    "", _dialog3_1, _condition3_1,
+    {},[], "", 3,[false,false,false,false,false],{}] call ace_interact_menu_fnc_createAction;
+[ _civilianObj, 0, [ "ACE_MainActions" ], _action3_1 ] call ace_interact_menu_fnc_addActionToObject;
+// Dialog 3_2: 
+private _dialog3_2 = {
+    _target setVariable [QGVAR(Talking), true];
+    // Bringen Sie die Lieferung direkt zu mir.
+    _target say QGVAR(cIdC1_mIdM1_dId3_2_success);
+    [_target] spawn {
+        params ["_target"];
+        sleep 1;
+        _target setVariable [QGVAR(Talking), false];
+    };
+};
+// Condition 3_2: 
+private _condition3_2 = {
+    (_target getVariable [ QGVAR(civilianC1MissionM1DialogState), 0 ] == 3)
+    && !(_target getVariable [ QGVAR(Talking), true])
+};
+// Ace Action 3_2: 
+private _action3_2 = [
+    QGVAR(civilianC1MissionM1AceAction),
+    "Wohin soll ich die Lieferung bringen?",
+    "", _dialog3_2, _condition3_2,
+    {},[], "", 3,[false,false,false,false,false],{}] call ace_interact_menu_fnc_createAction;
+[ _civilianObj, 0, [ "ACE_MainActions" ], _action3_2 ] call ace_interact_menu_fnc_addActionToObject;
+// Dialog 3_3: 
+private _dialog3_3 = {
+    _target setVariable [QGVAR(Talking), true];
+    // Die medizinischen Vorräte sind dringend für die Kranken hier im Dorf, und der Treibstoff wird für unsere Generatoren gebraucht. Ihre Hilfe wird hier wirklich geschätzt!
+    _target say QGVAR(cIdC1_mIdM1_dId3_3_success);
+    [_target] spawn {
+        params ["_target"];
+        sleep 1;
+        _target setVariable [QGVAR(Talking), false];
+    };
+};
+// Condition 3_3: 
+private _condition3_3 = {
+    (_target getVariable [ QGVAR(civilianC1MissionM1DialogState), 0 ] == 3)
+    && !(_target getVariable [ QGVAR(Talking), true])
+};
+// Ace Action 3_3: 
+private _action3_3 = [
+    QGVAR(civilianC1MissionM1AceAction),
+    "Wieso möchten Sie die Lieferung haben?",
+    "", _dialog3_3, _condition3_3,
+    {},[], "", 3,[false,false,false,false,false],{}] call ace_interact_menu_fnc_createAction;
+[ _civilianObj, 0, [ "ACE_MainActions" ], _action3_3 ] call ace_interact_menu_fnc_addActionToObject;
 // Dialog 4: Informationen abfragen
 private _dialog4 = {
     _target setVariable [QGVAR(Talking), true];
