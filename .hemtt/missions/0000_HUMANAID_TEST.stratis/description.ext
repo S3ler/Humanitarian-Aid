@@ -1,0 +1,52 @@
+author			= "Bele Bier";
+// Username reingeben
+
+briefingName = "Test";
+onLoadName   = "Test";
+// Name der Mission
+
+onLoadMission	= "Test";
+// Kleiner Text im Ladebildschirm
+
+class Header
+{
+    gameType =  Zeus;
+    minPlayers =  1;
+    maxPlayers = 120;
+};
+
+skipLobby = 0;
+// Schnelles joinen (nicht verändern)
+respawn=3;
+// Typ vom Respawn (nicht verändern)
+respawnOnStart=0;
+// Respawn am Start (nicht verändern)
+
+respawnDelay=5;
+respawnVehicleDelay = 10;
+// Delay für den Respawn
+
+respawnButton = 1;
+respawnDialog = 0;
+respawnTemplates[] = { "Counter", "Wave", "MenuPosition" };
+// Weitere Respawn Einstellungen (nicht verändern)
+
+briefing = 0;
+// briefing Bildschirm
+debriefing = 0;
+// debriefing Bildschirm
+
+disableChannels[] = {0,2,5};
+// Text Channels die aus sind
+
+disabledAI = 1;
+// KI in der Lobby aus
+
+// Bele 76561198109140523
+// Fronthalter 76561197977047716
+// Strong 76561198181304607
+enableDebugConsole[] = { "76561198109140523","76561197977047716","76561198181304607"};
+// Gebe deine SteamID dort wo die "76xxxxxxxxxxx" steht. Die SteamID die schon vorhanden ist NICHT löschen
+
+zeusCompositionScriptLevel = 2;
+

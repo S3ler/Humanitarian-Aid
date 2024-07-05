@@ -6,4 +6,10 @@ class CfgVehicles {
 		editorCategory = "HUMANAID_MAINCATEGORY"; 
 		editorSubcategory = "HUMANAID_CIVILIANS";
 	};
+	class GVAR(Dialog2_Civilian) : C_man_1 {
+		displayName = "Dialog2 Civilian"; 
+		author = AUTHOR;
+		editorCategory = "HUMANAID_MAINCATEGORY"; 
+		editorSubcategory = "HUMANAID_CIVILIANS";
+	};
 };

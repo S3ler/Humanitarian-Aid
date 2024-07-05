@@ -12,14 +12,14 @@ class EditorData
 	};
 	class ItemIDProvider
 	{
-		nextID=8;
+		nextID=18;
 	};
 	class Camera
 	{
-		pos[]={1883.2502,14.602303,5735.9009};
-		dir[]={-0.16261706,-0.59634316,-0.78613842};
-		up[]={-0.12080305,0.80271226,-0.58400172};
-		aside[]={-0.97930932,-1.5067235e-007,0.20257547};
+		pos[]={1899.6729,14.76922,5741.0845};
+		dir[]={-0.88116503,-0.21479377,-0.42120308};
+		up[]={-0.19379197,0.97665942,-0.092633925};
+		aside[]={-0.43126914,0,0.90222347};
 	};
 };
 binarizationWanted=0;
@@ -28,7 +28,7 @@ addons[]=
 {
 	"A3_Characters_F",
 	"A3_Modules_F_Curator_Curator",
-	"humanaid_main"
+	"humanaid_civ"
 };
 class AddonsMetaData
 {
@@ -51,16 +51,12 @@ class AddonsMetaData
 		};
 		class Item2
 		{
-			className="humanaid_main";
-			name="Main";
+			className="humanaid_civ";
+			name="Civilian Aid";
 			author="Bele Bier";
 			url="https://community.bistudio.com/wiki";
 		};
 	};
-};
-dlcs[]=
-{
-	"LOP_LeightsOPFOR"
 };
 randomSeed=8506386;
 class ScenarioData
@@ -104,7 +100,7 @@ class Mission
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={1877.6406,5.5068564,5720.5762};
+						position[]={1875.1111,5.5143571,5726.106};
 					};
 					side="West";
 					flags=7;
@@ -199,24 +195,22 @@ class Mission
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={1880.8583,5.530674,5727.4678};
-						angles[]={0,0.51074296,-0};
+						position[]={1880.722,5.5408502,5731.0923};
+						angles[]={0,3.2263184,0};
 					};
 					side="Civilian";
 					flags=7;
 					class Attributes
 					{
 					};
-					id=5;
-					type="humanaid_main_Tak_Mission_ID001";
-					atlOffset=-9.5367432e-007;
+					id=15;
+					type="humanaid_civ_Dialog2_Civilian";
 				};
 			};
 			class Attributes
 			{
 			};
-			id=4;
-			atlOffset=-9.5367432e-007;
+			id=14;
 		};
 		class Item3
 		{
@@ -230,24 +224,24 @@ class Mission
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={1879.1582,5.5271983,5727.6226};
-						angles[]={0,0.72297537,-0};
+						position[]={1886.1006,5.5577455,5730.2612};
+						angles[]={0,3.0405197,0};
 					};
 					side="Civilian";
 					flags=7;
 					class Attributes
 					{
 					};
-					id=7;
-					type="humanaid_main_Tak_Mission_ID001";
-					atlOffset=4.7683716e-007;
+					id=17;
+					type="humanaid_civ_Dialog_Civilian";
+					atlOffset=-1.9073486e-006;
 				};
 			};
 			class Attributes
 			{
 			};
-			id=6;
-			atlOffset=4.7683716e-007;
+			id=16;
+			atlOffset=-1.9073486e-006;
 		};
 	};
 };

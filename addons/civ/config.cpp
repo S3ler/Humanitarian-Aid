@@ -6,7 +6,8 @@ class CfgPatches {
 		authors[] = AUTHORS;
 		name = COMPONENT_NAME;
 		units[] = {
-			QGVAR(Dialog_Civilian)
+			QGVAR(Dialog_Civilian),
+			QGVAR(Dialog2_Civilian)
 		};
 		weapons[] = {};
 		requiredVersion = REQUIRED_VERSION;

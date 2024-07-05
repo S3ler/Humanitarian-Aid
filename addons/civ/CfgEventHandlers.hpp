@@ -24,4 +24,9 @@ class Extended_InitPost_EventHandlers {
             // TODO how to add execution to player client
         };
     };
+        class GVAR(Dialog2_Civilian) {
+        class ADDON {
+            serverInit = QUOTE(_this call FUNC(serverInitDialog2State));
+        };
+    };
 };
