@@ -34,6 +34,11 @@ class CfgSounds {
         sound[] = {QPATHTOF(sounds\cIdC1_mIdM1_dId3_3_success.wav), 10, 1, 1 };
         titles[] = {0, "Die medizinischen Vorräte sind dringend für die Kranken hier im Dorf, und der Treibstoff wird für unsere Generatoren gebraucht. Ihre Hilfe wird hier wirklich geschätzt!"};
     };
+    class GVAR(cIdC1_mIdM1_dId3_4_success) {
+        name = QGVAR(cIdC1_mIdM1_dId3_4_success);
+        sound[] = {QPATHTOF(sounds\cIdC1_mIdM1_dId3_4_success.wav), 10, 1, 1 };
+        titles[] = {0, "Piep pööp, jawohl zurück zum Anfang!"};
+    };
     class GVAR(cIdC1_mIdM1_dId4_success) {
         name = QGVAR(cIdC1_mIdM1_dId4_success);
         sound[] = {QPATHTOF(sounds\cIdC1_mIdM1_dId4_success.wav), 10, 1, 1 };

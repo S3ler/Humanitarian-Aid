@@ -172,6 +172,30 @@ private _action3_3 = [
     "", _dialog3_3, _condition3_3,
     {},[], "", 3,[false,false,false,false,false],{}] call ace_interact_menu_fnc_createAction;
 [ _civilianObj, 0, [ "ACE_MainActions" ], _action3_3 ] call ace_interact_menu_fnc_addActionToObject;
+// Dialog 3_4: 
+private _dialog3_4 = {
+    _target setVariable [QGVAR(Talking), true];
+    // Piep pööp, jawohl zurück zum Anfang!
+    _target say QGVAR(cIdC1_mIdM1_dId3_4_success);
+    [_target] spawn {
+        params ["_target"];
+        sleep 1;
+        _target setVariable [QGVAR(Talking), false];
+    };
+    _target setVariable [ QGVAR(civilianC1MissionM1DialogState), 1, true];
+};
+// Condition 3_4: 
+private _condition3_4 = {
+    (_target getVariable [ QGVAR(civilianC1MissionM1DialogState), 0 ] == 3)
+    && !(_target getVariable [ QGVAR(Talking), true])
+};
+// Ace Action 3_4: 
+private _action3_4 = [
+    QGVAR(civilianC1MissionM1AceAction),
+    "Zurück zum Anfang!",
+    "", _dialog3_4, _condition3_4,
+    {},[], "", 3,[false,false,false,false,false],{}] call ace_interact_menu_fnc_createAction;
+[ _civilianObj, 0, [ "ACE_MainActions" ], _action3_4 ] call ace_interact_menu_fnc_addActionToObject;
 // Dialog 4: Informationen abfragen
 private _dialog4 = {
     _target setVariable [QGVAR(Talking), true];
